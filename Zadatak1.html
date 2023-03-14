@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Predavanje 10 Zadatak 1</title>
+</head>
+
+<body>
+    <div id="div1" class="container text-center ">
+        <div class="mt-2">
+            <button class="btn btn-success" onclick="clickMe()">Click Me!</button>
+        </div>
+        <hr>
+        <div class="my-2">
+            <p id="p1">Hi.</p>
+            <button id="buttChangeText" class="btn btn-primary" onclick="promeniText()">Change text</button>
+        </div>
+        <hr>
+        <div class="mt-2 ">
+            <img id="slika1" class="" src="img/hello.jpg" alt="" onmouseover="promeniSliku()" onmouseout="vratiSliku()">
+        </div>
+        <hr>
+        <div>
+            <form >
+                <input id="Radio1" name="opcije" type="radio" value="V1" />
+                <label for="Radio1">Male</label><br />
+                <input id="Radio2" name="opcije" type="radio" value="V3" />
+                <label for="Radio2">Female</label><br />
+                <input id="Button1" class="btn btn-success mt-2 p-2" type="button" onclick="provera()"
+                    value="Check selected Gender" />
+                <br />
+                <span id="span1" class="mb-2"></span>
+            </form>
+        </div>
+        <hr>
+
+        <div>
+            <form>
+                <label for="fName" class="form-label mt-2">First name:</label>
+                <input type="text" class="form-control" id="fName" placeholder="Your first name" name="firstName">
+                <label for="lName" class="form-label mt-2">Last name:</label>
+                <input type="text" class="form-control" id="lName" placeholder="Your last name" name="lastName">
+                <label for="fAnimal" class="form-label mt-2">Favourite animal:</label>
+                <input type="text" class="form-control" id="fAnimal" placeholder="Your favourite animal" name="favAnimal">
+            </form>
+        </div>
+
+        <button class="btn btn-primary my-2" onclick="zadatak1a()">Submit</button><br>
+        <button class="btn btn-primary" onclick="prikaziStavke()">Show input</button><br>
+
+        <span id="sp1"></span><br>
+        <span id="sp2"></span><br>
+        <span id="sp3"></span><br>
+        
+        
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="JSkod1.js"></script>
+</body>
+
+</html>
